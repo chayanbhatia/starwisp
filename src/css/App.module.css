@@ -72,7 +72,7 @@
   margin: 20px;
 }
 
-.main > div {
+.main div {
   background-color: rgb(19, 67, 107);
 }
 
@@ -110,8 +110,10 @@
   grid-row: 7 / span 2;
 }
 
-.main div {
+.main div,
+.main a {
   color: white;
+  text-decoration: none;
   font-weight: 500;
   display: flex;
   justify-content: center;
@@ -125,4 +127,16 @@
   background-color: rgb(112, 163, 207);
   color: black;
   transition-duration: 400ms;
+}
+
+.back {
+  background-color: cadetblue;
+  border: none;
+  height: 30px;
+  width: 100px;
+}
+
+.back a {
+  color: white;
+  text-decoration: none;
 }
